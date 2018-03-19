@@ -63,6 +63,7 @@ setup(
     entry_points = {
         'console_scripts': [
             'demux=eclipdemux_package.demux:main',
+            'eclipdemux=eclipdemux_package.demux:main',
         ],
     },
 
